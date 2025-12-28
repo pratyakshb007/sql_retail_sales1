@@ -75,9 +75,11 @@ The following SQL queries were developed to answer specific business questions:
 SELECT *
 FROM retail_sales
 WHERE sale_date = '2022-11-05';
+
+SELECT * FROM retail_sales;
 ```
 
-2. **Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022**:
+2. **Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than or equal to 4 in the month of Nov-2022**:
 ```sql
 SELECT 
   *
